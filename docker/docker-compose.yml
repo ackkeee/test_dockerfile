@@ -1,0 +1,7 @@
+jenkins:
+  build: jenkins
+  ports:
+    - "8080:8080"
+  privileged: true
+  command: /sbin/init
+  restart: always
